@@ -1,0 +1,35 @@
+{
+  "name": "typeahead-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "0.18.0",
+    "react": "^16.6.3",
+    "react-bootstrap": "^0.32.4",
+    "react-bootstrap-typeahead": "^3.2.4",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "react-table": "^6.8.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "proxy": "http://localhost:8080",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "es6-promise": "^4.2.5",
+    "react-json-table": "^0.1.1",
+    "reactstrap": "^6.5.0"
+  }
+}
